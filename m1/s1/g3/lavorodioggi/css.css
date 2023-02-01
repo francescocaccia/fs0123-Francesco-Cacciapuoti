@@ -70,15 +70,18 @@
 
 
 #contprimalista{
-    text-align: center;
+    text-align: left;
+    margin: auto;
+    width: 50%;
+}
     
-}
 
-.primalista {
-   
-}
+
+
 #ingredients{
     text-align: left;
+    margin: auto;
+    width: 50%;
 }
 
 
