@@ -1,0 +1,87 @@
+@font-face{
+    font-family: 'Roboto', sans-serif;
+} 
+
+.intro {
+    text-align: center;
+    background-color: rgba(rgb(238, 255, 0), rgb(128, 115, 0), rgb(255, 242, 0), alpha);
+    border-top: 1px solid yellow ;
+    padding: 10px;
+
+}
+
+.grassetto {
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+}
+#video{
+    text-align: center ;
+}
+
+.image {
+    color: grey;
+    text-align: center;
+}
+
+.featured {
+    color: red;
+    width: 100%;
+
+}
+
+.fresh {
+    color: rgb(19, 186, 186);
+}
+
+#sottoimmagine {
+    
+    border-left: 5em;
+    border-color: rgb(79, 79, 7);
+}
+
+
+
+
+.ingredients {
+    border-bottom: 1px solid rgb(21, 135, 167);
+    padding: 8px;
+    width: 30cm;
+    
+}
+
+.method {
+    border-bottom: 1px solid rgb(21, 135, 167);
+    padding: 8px;
+    width: 30cm;
+    
+}
+
+.makefocaccia {
+    font-weight: bold;
+
+}
+
+.simply {
+    color: aqua;
+}
+
+
+#contprimalista{
+    text-align: center;
+    
+}
+
+.primalista {
+   
+}
+#ingredients{
+    text-align: left;
+}
+
+
+#main {
+    text-align: center;
+}

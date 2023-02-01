@@ -1,0 +1,27 @@
+div {
+    color: red;
+    background-color: blue;
+}
+
+/* questo è un commento in css*/
+
+
+/*selettore{
+    proprietà/regola:valore;
+   }
+   */
+div span {
+    color: white;
+}
+
+/* è come se dicessi al broswer, vai a prendere gli span che sono dentro i div, tutti!*/
+
+div, span {
+
+}
+/*con la virgola gli dici invece di tutti i div e tutti gli span, 
+applicare le stesse regole a piu selettori gli span e i div non sono collegati tra loro
+*/
+    
+
+   
