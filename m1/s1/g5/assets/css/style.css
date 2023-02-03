@@ -1,0 +1,251 @@
+/* Your styles here */
+/* hEADER */
+font-family: 'Montserrat',
+sans-serif;
+
+font-family: 'Open Sans',
+sans-serif;
+font-family : 'Montserrat',
+sans-serif;
+
+
+body {
+
+    font-family: #393d41 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+#img {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    padding: 60px;
+}
+
+
+#titolo {
+    text-align: center;
+    background-image: url(../images/banner.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+
+.p1 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(9, 177, 237);
+    padding: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    width: 100%;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    ;
+    background-color: #f04c2f;
+    color: white;
+    border-style: none;
+    border-radius: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+#header {
+    text-align: center;
+}
+
+h4 {
+    height: 1.65rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(9, 177, 237);
+    padding: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    width: 100%;
+
+}
+
+
+.tuttiti {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.lavoradad {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+
+
+}
+
+.trentamila {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+
+.notebook {
+    border-radius: 100%;
+    padding: 40px;
+}
+
+
+
+
+.scegliazienda {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nonserve {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#riquadrorange {
+    background-color: #e22d0e;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.epicode {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    font-size: larger;
+}
+
+.tremesi {
+    font-style: italic;
+}
+
+.mariorossi {
+
+    padding-top: 15px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.foto1 {
+    width: 100%;
+}
+
+.foto2 {
+
+    width: 100%;
+}
+
+.foto3 {
+    width: 100%;
+
+}
+
+article {
+    background-position: center;
+    text-align: center;
+    background-color: white;
+    border-bottom: #5b5d5e;
+    border: 0.1px solid rgb(212, 204, 204);
+    border-radius: 1%;
+    margin: 1cm;
+
+}
+
+
+h5 {
+    text-align: center;
+    height: 1.65rem;
+    font-family: 'Montserrat', sans-serif;
+
+    color: rgb(9, 177, 237);
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+}
+
+.paragrafi {
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+/* FOOTER*/
+
+footer {
+    background-color: #c8e7f0;
+    color: white;
+
+
+}
+
+.contactitle {
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+}
+
+#pixabay {
+    margin-top: 30px;
+    border-top: white solid 1px;
+
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+
+.dernier {
+    text-decoration: underline;
+}
+
+
+.contact {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #c8e7f0;
+    text-decoration-line: underline;
+
+
+}
+
+.appia {
+    padding: 10px;
+}
