@@ -28,7 +28,6 @@ body {
 #titolo {
     text-align: center;
     background-image: url(../images/banner.jpg);
-    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -52,7 +51,7 @@ h1 {
     padding: 20px;
     font-weight: bold;
     font-size: 40px;
-    width: 100%;
+    
 }
 
 button {
