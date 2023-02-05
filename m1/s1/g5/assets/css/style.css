@@ -1,5 +1,5 @@
 /* Your styles here */
-/* hEADER */
+
 font-family: 'Montserrat',
 sans-serif;
 
@@ -8,12 +8,13 @@ sans-serif;
 font-family : 'Montserrat',
 sans-serif;
 
-
 body {
 
     font-family: #393d41 'Open Sans', sans-serif;
     background-color: black;
 }
+
+/* hEADER */
 
 #img {
     text-align: center;
@@ -85,12 +86,13 @@ h4 {
 
 
 .tuttiti {
-    padding-top: 20px;
+    padding-top: 1.65rem;
     text-align: center;
 }
 
 .lavoradad {
-    font-size: 30px;
+    
+    font-size: 1.65rem;
     font-family: 'Open Sans', sans-serif;
     padding-top: 20px;
     text-align: center;
@@ -99,7 +101,7 @@ h4 {
 }
 
 .trentamila {
-    font-size: 30px;
+    font-size: 1.65rem;
     font-family: 'Open Sans', sans-serif;
     padding: 20px;
 }
@@ -116,20 +118,20 @@ h4 {
     font-family: 'Open Sans', sans-serif;
     padding-top: 20px;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.65rem;
 }
 
 .nonserve {
     font-family: 'Open Sans', sans-serif;
     padding: 20px;
-    font-size: 30px;
+    font-size: 1.65rem;
 }
 
 
 p {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.65rem;
 }
 
 #riquadrorange {
@@ -143,7 +145,7 @@ p {
 .epicode {
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
-    font-size: larger;
+    font-size: 1.65rem;
 }
 
 .tremesi {
@@ -207,18 +209,18 @@ h5 {
 /* FOOTER*/
 
 footer {
-    background-color: #c8e7f0;
+    background-color: rgb(21, 163, 188);
     color: white;
 
 
 }
 
 .contactitle {
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
-
     color: white;
     padding: 30px;
-    font-size: 40px;
+    font-size: 1.5rem;
 }
 
 #pixabay {
@@ -240,10 +242,14 @@ footer {
     width: 100%;
     text-align: center;
     color: white;
-    background-color: #c8e7f0;
+    background-color:  rgb(21, 163, 188);
     text-decoration-line: underline;
+    
+}
 
-
+address{
+    
+    text-align: center;
 }
 
 .appia {
