@@ -18,4 +18,4 @@ var _pet2 = '<p>pantera</p>';
 
 console.log(_pet2);
 
-//var 12 = 'numero';
+//var 12 = 'numero';3

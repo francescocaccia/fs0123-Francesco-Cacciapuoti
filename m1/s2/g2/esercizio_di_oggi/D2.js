@@ -45,7 +45,7 @@ console.log(condizione); //esempio di booleano
 /* SCRIVI QUI LA TUA RISPOSTA
 */
 
-const name = 'Francesco';
+const nome = 'Francesco';
 
 
 /* ESERCIZIO 3
