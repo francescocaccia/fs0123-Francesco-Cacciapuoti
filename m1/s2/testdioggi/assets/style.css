@@ -1,0 +1,59 @@
+#calcolatrice {
+   
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    text-align: center;
+    border-radius: 5%;
+    background-color: brown;
+    margin-top: 7rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    box-shadow: 0px 0px 20px black;
+}
+
+
+#display {
+    text-align: end;
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: 1.5rem;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 5px black;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+#tastiera {
+    text-align: center;
+    margin-top: 20px;
+    margin: 2rem;
+}
+
+
+
+button {
+    font-family: 'Roboto Serif', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgb(75, 143, 203);
+    border-radius: 100%;
+    flex-direction: column;
+    margin: 3px;
+    width: 5rem;
+    padding: 6px 9px;
+    padding-left: 2rem;
+    text-align: center;
+    box-shadow: 0px 0px 5px black;
+}
+
+
+.triplo6 {
+    background-color: burlywood;
+
+}
