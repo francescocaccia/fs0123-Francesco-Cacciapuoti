@@ -5,7 +5,7 @@ function aggiungiSimbolo(elemento) {
     let simbolo = elemento.getAttribute('data-simbolo');
 
     let display = document.querySelector('#display');
-    display.value += simbolo;
+    display.value += simbolo;//display.value= display.value + simbolo
 }
 
 function totale() {
