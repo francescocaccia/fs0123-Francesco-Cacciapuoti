@@ -4,39 +4,34 @@
   prima e gli ultimi 3 della seconda. Converti la stringa risultante in maiuscolo e mostrala con un console.log().
 */
 
-function conc (string1, string2){
-  let parola = string1.slice(0, 2) + string2.slice(-3);
-  console.log(parola.toUpperCase())
-}
-conc ('ciao', 'casa')
 
-/**  function conc (string1, string2){
-    let parola1 = string1.slice(0, 2); 
-    let parola2 = string2.slice(-3);
-    let stringaConcatenata = parola1 + parola2;
-    let stringaMaiusc = stringaConcatenata.toUpperCase();
-    console.log(stringaMaiusc)
-  }
-  conc ('ciao', 'casa')
- * 
- */
+
+
+
+function conc(string1, string2) {
+  let parola1 = string1.slice(0, 2);
+  let parola2 = string2.slice(-3);
+  let stringaConcatenata = parola1 + parola2;
+  let stringaMaiusc = stringaConcatenata.toUpperCase();
+  console.log(stringaMaiusc)
+}
+conc('ciao', 'casa')
+
 
 /* ESERCIZIO 2
-  Scrivi una funzione per creare un array di soli valori DISPARI da 1 a 100.
+  Scrivi una funzione per creare un array di soli valori DISPARI da 1 a 100.    // i = i+2 è uguale a  i +=2  
  */
 
-function odds (){
+function dispari() {
 
- let arr = []
+  let numeriDispari = []
 
-for (arr = 0; i < 100; i++);
-if{arr == % 0 
-}else{
-
+  for (let i = 1; i <= 100; i += 2) {
+    numeriDispari.push(i)
+  }
+  return numeriDispari
 }
-}
-
-
+console.log(dispari())
 
 
 /* ESERCIZIO 3
@@ -45,7 +40,16 @@ if{arr == % 0
 
 
 
+function multipli() {
 
+  let numeriMultipli = []
+
+  for (let i = 5; i <= 100; i += 5) {
+    numeriMultipli.push(i)
+  }
+  return numeriMultipli
+}
+console.log(multipli())
 
 
 
@@ -54,8 +58,17 @@ if{arr == % 0
   tra 0 e 100 (incluso).
  */
 
+function elementi() {
 
+  let dieciElement = []
 
+  for (let i = 0; i < 10; i++) {
+    let risultato = Math.floor(Math.random() * 101)
+    dieciElement.push(risultato)
+  }
+  return dieciElement
+}
+console.log(elementi())
 
 
 
@@ -64,31 +77,28 @@ if{arr == % 0
   Scrivi una funzione per ricavare solamente i valori PARI da un array composto da soli valori numerici.
  */
 
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+function numeriPari(pippoBaudo) {
+
+
+  return pippoBaudo.filter(n => n % 2 == 0)
+
+
+}
+console.log(numeriPari(arr))
 
 
 
-
-  
 /* ESERCIZIO 6
   Scrivi una funzione per sommare a catena i numeri contenuti in un array.
  */
 
- let massnumbers = [1,2,3,4,5,6]
 
- function sommare (n){
 
-    let sommanumeri = 0
 
-    n.forEach(function(z)
 
-    sommaNumeri += z
-    )}
- return z ;
-    
-    console.log()
-
-  
- 
 
 
 
@@ -97,16 +107,7 @@ if{arr == % 0
 */
 
 
-let = [
-  'stringa',
-  6,
-  8,
-  7,
-  true
-]
 
-function mixArr (arr){
-  for
 
 
 
@@ -115,15 +116,7 @@ function mixArr (arr){
   es.: ["EPICODE", "is", "great"] => [7, 2, 5]
 */
 
-let arr1 = ['EPICODE', 'is', 'great'];
-function switchNumber (arr) {
-  let arr2 = [];
-  for (let elemento of arr) {
-    arr2.push(elemento.length);
-  }
-  return arr2;
-}
-console.log(switchNumber(arr1));
+
 
 /* ESERCIZIO 9 (EXTRA)
   Scrivi una funzione per eliminare solo i valori PARI da un array.
@@ -132,8 +125,12 @@ console.log(switchNumber(arr1));
 
 
 /* ESERCIZIO 10 (EXTRA)
-  Scrivi una funzione per creare un array di 10 elementi; ognuno di essi deve essere un valore random compreso tra 0 e 10 (incluso), SENZA AMMETTERE DUPLICATI.
+  Scrivi una funzione per creare un array di 10 elementi; ognuno di essi deve essere un valore random compreso 
+  tra 0 e 10 (incluso), SENZA AMMETTERE DUPLICATI.
  */
+
+
+
 
 /* ESERCIZIO 11 (EXTRA)
   Scrivi un algoritmo in grado di invertire un array.
@@ -261,38 +258,17 @@ const movies = [
   Scrivi una funzione per trovare il film più vecchio nell'array fornito.
 */
 
-function oldestMovie (movie){
-
-let oldestMovie = 0;
-
-  for(let film of movies){
-
-    if(!oldestMovie || film.Year < oldestMovie.Year)
-oldestMovie = film;
-  }
-}
-return oldestMovie
-}
-console.log(oldestMovie(movies));
 /* ESERCIZIO 13
   Scrivi una funzione per ottenere il numero di film contenuti nell'array fornito.
 */
 
-function numerofilm (movie){
- let numberfilm = movie.filter (n.Type === 'movie').length;
- return numberfilm;
-}
-console.log(numerofilm(movies))
 
 
 /* ESERCIZIO 14
   Scrivi una funzione per creare un array con solamente i titoli dei film contenuti nell'array fornito.
 */
 
-function movieTitles (movie){
-  return movies.map(movie => movie.Title);
-}
-console.log(movieTitles(movies));
+
 /* ESERCIZIO 15
   Scrivi una funzione per ottenere dall'array fornito solamente i film usciti nel millennio corrente.
 */
