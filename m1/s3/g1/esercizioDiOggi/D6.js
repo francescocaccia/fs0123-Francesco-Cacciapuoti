@@ -17,7 +17,8 @@ spiegato a lezione
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 function area(l1,l2){
-    let rettangolo= l1*l2
+    let rettangolo = l1*l2
+
   return l1*l2
 
 }
@@ -146,7 +147,7 @@ console.log(reverseString("EPICODE"))
 
 
 function upperFirst(frase){
-        return frase.split(" ").map(parola => parola.charAt(0).toUpperCase()+ parola.slice(1)).join(' ');
+    return frase.split(" ").map(parola => parola.charAt(0).toUpperCase()+ parola.slice(1)).join(' ');
 }
 console.log(upperFirst('ciao Luigi'));
 
