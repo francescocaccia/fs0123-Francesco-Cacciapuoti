@@ -78,7 +78,7 @@ console.log(elementi())
  */
 
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-
+let arr2 = [2, 6, 7, 9, 5]
 
 function numeriPari(pippoBaudo) {
 
@@ -95,12 +95,16 @@ console.log(numeriPari(arr))
   Scrivi una funzione per sommare a catena i numeri contenuti in un array.
  */
 
-function concarr (pippo){
+function concarr(pippo) {
+  let somma = 0;
+  for (let baudo of pippo) {
+    somma += baudo;
 
-return pippo.reduce(arr)
+  }
+  return somma
 }
-
-console.log(concarr())
+console.log(concarr(arr));
+console.log(concarr(arr2));
 
 
 
@@ -109,23 +113,43 @@ console.log(concarr())
   Scrivi una funzione per incrementare di 1 tutti i valori numerici in un array.
 */
 
+function incre(pippo2) {
+  for (let i = 0; i < pippo2.length; i++) {
+    pippo2[i] = pippo2[i] + 1;
 
-
-
-
+  }
+  return pippo2
+}
+console.log(incre(arr))
 
 /* ESERCIZIO 8
   Sostituisci ogni stringa contenuta in un array con un numero rappresentante la sua lunghezza.
   es.: ["EPICODE", "is", "great"] => [7, 2, 5]
 */
+let epicode = ["EPICODE", "is", "great"]
 
+function stringToInt(code) {
+  for (let i = 0; i < code.length; i++) {
+    epicode[i] = epicode[i].length
+  }
+  return code
+}
+console.log(stringToInt(epicode))
 
 
 /* ESERCIZIO 9 (EXTRA)
   Scrivi una funzione per eliminare solo i valori PARI da un array.
 */
 
-
+function nm(pipbau) {
+  for (let i = 0; i < pipbau.length; i++) {
+    if (pipbau[i] % 2 == 0) {
+      pipbau.splice(i, 1)
+    }
+  }
+  return pipbau
+}
+console.log(nm(arr))
 
 /* ESERCIZIO 10 (EXTRA)
   Scrivi una funzione per creare un array di 10 elementi; ognuno di essi deve essere un valore random compreso 
@@ -260,6 +284,19 @@ const movies = [
 /* ESERCIZIO 12
   Scrivi una funzione per trovare il film più vecchio nell'array fornito.
 */
+
+function oldFilm(oldMovie) {
+  let oldfilm = oldMovie[0].Year
+
+  let oldTitle = oldMovie[0].Title
+
+  for (let film of oldMovie) {
+      if ( film.Year < oldfilm){
+        oldfilm = film.Year
+      }
+
+  }
+}
 
 /* ESERCIZIO 13
   Scrivi una funzione per ottenere il numero di film contenuti nell'array fornito.
