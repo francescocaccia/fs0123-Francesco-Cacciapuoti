@@ -95,9 +95,12 @@ console.log(numeriPari(arr))
   Scrivi una funzione per sommare a catena i numeri contenuti in un array.
  */
 
+function concarr (pippo){
 
+return pippo.reduce(arr)
+}
 
-
+console.log(concarr())
 
 
 
