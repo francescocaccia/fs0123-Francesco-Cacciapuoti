@@ -286,14 +286,15 @@ const movies = [
 */
 
 function oldFilm(oldMovie) {
+  
   let oldfilm = oldMovie[0].Year
 
   let oldTitle = oldMovie[0].Title
 
   for (let film of oldMovie) {
-      if ( film.Year < oldfilm){
-        oldfilm = film.Year
-      }
+    if (film.Year < oldfilm) {
+      oldfilm = film.Year
+    }
 
   }
 }
@@ -302,12 +303,26 @@ function oldFilm(oldMovie) {
   Scrivi una funzione per ottenere il numero di film contenuti nell'array fornito.
 */
 
+function numeroFilm(pippo) {
 
+  return pippo.length
+}
+console.log(numeroFilm(movies))
 
 /* ESERCIZIO 14
   Scrivi una funzione per creare un array con solamente i titoli dei film contenuti nell'array fornito.
 */
 
+function creare(vettore) {
+
+  let titoli = []
+  for (i of vettore) {
+  titoli.push(i.Title)
+  }
+  return titoli
+}
+
+console.log(creare(movies))
 
 /* ESERCIZIO 15
   Scrivi una funzione per ottenere dall'array fornito solamente i film usciti nel millennio corrente.
